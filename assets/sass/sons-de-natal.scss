@@ -1,0 +1,114 @@
+@import "./variables.scss";
+.capa-sons-de-natal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: $secondary-color;
+    img{
+        background-color: $secondary-color;
+        width:132.5vh;
+    }
+}
+
+.tipografia{
+    color:#D46E1D;
+    height: 200px;
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
+    .tipografia-img{
+        img{
+            width:132.5vh;
+        }
+    }
+}
+.construcao-logo-img{
+    display: flex;
+    justify-content: center;
+    img{
+        width:132.5vh;
+    }
+  
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    img{
+        width:132.5vh;
+    }
+}
+
+.post-sons{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    div img{
+        width: 550px;
+        height: 450px;
+    }
+    .celular-sons{
+    width: 600px;
+    }
+}
+
+@media (max-width: 450px){
+    .capa-sons-de-natal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        img{
+            width:100%;
+        }
+    }
+    
+    .tipografia{
+        color:#D46E1D;
+        height: 200px;
+        font-family: "Signika", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 200;
+        .tipografia-img{
+            img{
+                width:100%;
+            }
+        }
+    }
+    .construcao-logo-img{
+        display: flex;
+        justify-content: center;
+        img{
+            width:100%;
+        }
+      
+    }
+    
+    .banner-img{
+        display: flex;
+        justify-content: center;
+        img{
+            width:100%;
+        }
+    }
+    
+    .post-sons{
+        display: flex;
+        height: 600px;
+    
+        div img{
+            width: 250px;
+            height: 250px;
+        }
+        .celular-sons{
+        width: 250px;
+        }
+    }
+
+}

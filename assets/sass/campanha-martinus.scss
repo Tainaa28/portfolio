@@ -1,0 +1,221 @@
+@import "./variables.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.capa-projetos{
+   display: flex;
+   background: url("../img/fundo.svg");
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 650px;
+    text-align: justify;
+   .text-projetos{ 
+    
+    h1{
+        color: $secondary-color;
+        font-family: "Signika", sans-serif;
+        font-size: 65px;
+        font-weight: 600;
+    }
+    p{
+        
+        width: 820px;
+        color: $secondary-color;
+        font-family: "Signika", sans-serif;
+        font-size: 23px;
+        font-weight: 200;  
+    }
+   }
+}
+
+.arte-campanha{
+    background-color: #EDEBE4;
+    .arte-campanha-img{
+        display: flex;
+        background-color: #EDEBE4;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: 450px;
+        }
+    }
+    
+    span{
+        color: #273C68;
+        font-family: "Signika", sans-serif;
+        font-size: 23px;
+        font-weight: 500;  
+    }
+    h1{
+        margin-left: 50px;
+        padding-bottom: 20px;
+        color: #273C68;
+        font-family: "Signika", sans-serif;
+        font-size: 23px;
+        font-weight: 100;  
+    }        
+}
+
+.moodboard{
+    background-color: #EDEBE4;
+    margin-top: 100px;
+    height: 450px;
+    h1{
+        color: #273C68;
+        font-family: "Signika", sans-serif;
+        font-size: 25px; 
+        font-weight: 500;
+        margin-left: 50px;
+        
+    }
+    span{
+        border-bottom:solid #EEAB4B 3px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        img{        
+            width: 950px;
+        }
+    }
+    
+}
+.campanha-redes-sociais{
+    background-color: #EDEBE4;
+    margin-top: 100px;
+    height: 850px;
+    h1{
+        color: #273C68;
+        font-family: "Signika", sans-serif;
+        font-size: 25px; 
+        font-weight: 500;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    span{
+        border-bottom:solid #EEAB4B 3px;
+    }
+
+    .redes-sociais-container{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        img{
+            margin-right: 25px ;
+            margin-bottom: 25px;
+            width: 300px;
+        }
+    }
+}
+.ferramentas{
+    margin-left: 80px;
+    margin-bottom: 80px;
+    img{
+        width: 50px;
+        
+    }
+}
+
+@media (max-width: 450px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .capa-projetos{
+       width: 100%;
+       height: 500px;
+        text-align: justify;
+       .text-projetos{ 
+        
+        h1{
+            font-size: 20px;
+        }
+        p{
+            width:100%;
+            font-size: 15px;
+        }
+       }
+    }
+    
+    .arte-campanha{
+        background-color: #EDEBE4;
+        .arte-campanha-img{
+            img{
+                width:100%;
+            }
+        }
+        
+        span{
+            font-size: 18px;
+            font-weight: 500;  
+        }
+        h1{
+            margin-left: 15px;
+            padding-bottom: 0px;
+            font-size: 18px;
+        }        
+    }
+    
+    .moodboard{
+        margin-top: 100px;
+        height: 250px;
+        h1{
+            font-size: 23px; 
+            margin-left: 15px;
+            
+        }
+        span{
+            border-bottom:solid #EEAB4B 3px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            img{        
+                width: 100%;
+            }
+        }
+        
+    }
+    .campanha-redes-sociais{
+        background-color: #EDEBE4;
+        margin-top: 100px;
+        height: auto;
+        h1{
+            font-size: 23px; 
+            font-weight: 500;
+            margin-left: 15px;
+        }
+        span{
+            border-bottom:solid #EEAB4B 3px;
+        }
+    
+        .redes-sociais-container{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img{
+                margin-right: 0px ;
+                margin-bottom: 0px;
+                width:100%;
+            }
+        }
+    }
+    .ferramentas{
+        margin-left: 40px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        img{
+            width: 50px;
+            
+        }
+    }
+
+}

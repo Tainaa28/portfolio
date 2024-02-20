@@ -1,0 +1,96 @@
+.fund-martinus-fest{
+    background-color: #fff;
+}
+
+.capa-martinus-fest{
+    img{
+        width:100%;
+    }
+}
+
+.tipografia-martinus-fest{
+    color:#D46E1D;
+    height: 300px;
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
+
+    div img{
+        width:132.5vh;
+    }
+}
+
+.color-martinus-fest{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    div{
+        margin-left: 15px;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .bloco1{background-color:#E48D0C ;}
+    .bloco2{background-color:#E6323D ;}
+    .bloco3{background-color:#3D3D3D ;}
+    .bloco4{background-color:#F6E6DC ;}
+}
+
+.post-martinus-fest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 850px;
+    gap:15px;
+    img{
+        width: 350px;
+        box-shadow: 0 0 5px 0px #9c9c9c;
+    }
+}
+
+@media (max-width: 450px){
+    
+    .capa-martinus-fest{
+        img{
+            width:100%;
+        }
+    }
+    
+    .tipografia-martinus-fest{
+        color:#D46E1D;
+        height: 150px;
+        font-family: "Signika", sans-serif;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 200;
+    
+        div img{
+            width:100%;
+        }
+    }
+    
+    .color-martinus-fest{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        div{
+            margin-left: 5px;
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+        }
+    }
+    
+    .post-martinus-fest{
+        height: auto;
+        gap:15px;
+        img{
+            width: 250px;
+            box-shadow: 0 0 5px 0px #9c9c9c;
+        }
+    }
+
+}
