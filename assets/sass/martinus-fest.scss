@@ -43,10 +43,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 850px;
-    gap:15px;
+    flex-grow: 2;
+    height: 800px;
+    gap:25px;
+    margin-top: 35px;
     img{
-        width: 350px;
+        width: 280px;
         box-shadow: 0 0 5px 0px #9c9c9c;
     }
 }

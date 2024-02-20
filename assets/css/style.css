@@ -57,7 +57,7 @@ body {
   font-weight: 500;
 }
 .arte-campanha h1 {
-  margin-left: 50px;
+  margin-left: 80px;
   padding-bottom: 20px;
   color: #273C68;
   font-family: "Signika", sans-serif;
@@ -75,7 +75,7 @@ body {
   font-family: "Signika", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .moodboard span {
   border-bottom: solid #EEAB4B 3px;
@@ -98,7 +98,7 @@ body {
   font-family: "Signika", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-bottom: 50px;
 }
 .campanha-redes-sociais span {
@@ -194,8 +194,8 @@ body {
   }
   .campanha-redes-sociais .redes-sociais-container img {
     margin-right: 0px;
-    margin-bottom: 0px;
-    width: 100%;
+    margin-bottom: 20px;
+    width: 75%;
   }
   .ferramentas {
     margin-left: 40px;
@@ -213,7 +213,7 @@ body {
 }
 .capa-conecta-martinus img {
   width: 100%;
-  height: 850px;
+  height: 100%;
 }
 
 .campanha-conecta-2 {
@@ -445,11 +445,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 850px;
-  gap: 15px;
+  flex-grow: 2;
+  height: 800px;
+  gap: 25px;
+  margin-top: 35px;
 }
 .post-martinus-fest img {
-  width: 350px;
+  width: 280px;
   box-shadow: 0 0 5px 0px #9c9c9c;
 }
 
@@ -647,7 +649,7 @@ body {
 }
 
 .fundo-cores {
-  height: 280px;
+  height: 20%;
 }
 .fundo-cores img {
   width: 100%;
